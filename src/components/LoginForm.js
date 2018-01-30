@@ -8,6 +8,8 @@ class LoginForm extends React.Component {
       username: '',
       password: '',
     };
+    
+    this.onSubmit = this.onSubmit.bind(this);
   }
 
   render() {
