@@ -12,6 +12,10 @@ class LoginForm extends React.Component {
     this.onSubmit = this.onSubmit.bind(this);
   }
   
+  logIn = (event) => {
+    
+  }
+  
   onSubmit = (event) => {
     this.setState({
       
