@@ -13,7 +13,7 @@ class LoginForm extends React.Component {
   }
   
   logIn = (event) => {
-    
+    event.preventDefault();
   }
   
   onSubmit = (event) => {
