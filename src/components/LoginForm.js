@@ -11,6 +11,12 @@ class LoginForm extends React.Component {
     
     this.onSubmit = this.onSubmit.bind(this);
   }
+  
+  onSubmit = (event) => {
+    this.setState({
+      
+    });
+  }
 
   render() {
     return (
@@ -18,13 +24,13 @@ class LoginForm extends React.Component {
         <div>
           <label>
             Username
-            <input id="test-username" type="text" value="username" />
+            <input id="test-username" type="text" value={this.state.username} />
           </label>
         </div>
         <div>
           <label>
             Password
-            <input id="test-password" type="password" value="password" />
+            <input id="test-password" type="password" value={this.state.password} />
           </label>
         </div>
         <div>
