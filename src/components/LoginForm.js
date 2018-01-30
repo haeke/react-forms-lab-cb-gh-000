@@ -9,7 +9,6 @@ class LoginForm extends React.Component {
       password: '',
     };
     
-    this.onSubmit = this.onSubmit.bind(this);
   }
   
   logIn = (event) => {
